@@ -1,0 +1,7 @@
+spring:
+    data:
+        mongodb:
+            uri: ${CONNECTION_STRING}
+            authentication-database: admin
+            auto-index-creation: true
+
